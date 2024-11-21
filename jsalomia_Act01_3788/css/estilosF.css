@@ -1,0 +1,37 @@
+
+.formulario1{
+    display: inline-block;
+    padding-left: 10px;
+    margin-top: 15px;
+    width: 650px;
+    border:1px solid black;  
+    padding-bottom: 10px;
+}
+
+.container{
+    display: flex;
+}
+
+.p-1,.p-2{
+    width:240px;
+    margin-top:-10px;
+    margin-left:3px;
+    background-color: #fff;
+}
+
+#formulario2{
+    padding-left: 10px;
+    padding-bottom: 10px;
+    margin-top: 15px;
+    display: none;
+    width: 550px;
+    height: 100%;
+    border:1px solid black;  
+    margin-left: 30px;
+}
+
+
+.margen{
+    margin-top: 15px 15px;
+    margin-bottom: 15px;
+}

@@ -1,0 +1,23 @@
+.container{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.formulario1,.formulario2{
+    padding-left: 15px;
+    padding-bottom:15px; 
+    margin-top: 20px;
+    margin-bottom: 25px;
+    border:1px solid black;  
+}
+
+.p-1,.p-2{
+    width:150px;
+    margin-top:-10px;
+    margin-left:3px;
+    background-color: #fff;
+}
+
+#informacion{
+    margin-top: 25px;
+}

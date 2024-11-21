@@ -1,0 +1,109 @@
+body{
+    height: 100%;
+}
+
+
+/* Style the header */
+header {
+    background-color: rgba(0, 255, 255);
+    padding: 20px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    border-width: 4px;
+    border-style: solid;
+    border-color: rgba(121, 121, 121, 1);
+    border-radius: 10px;
+}
+
+
+.container{
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    margin-top: 10px;
+    background-color: yellow;
+    border-width: 4px;
+    border-color: rgba(121, 121, 121, 1);
+    border-style: solid;
+    border-radius: 10px;
+
+}
+
+.a-1,.a-2{
+    margin-right: 50px;
+}
+
+
+.row {
+    display: flex;
+    margin-top: 10px;
+    /* background-color: aqua; */
+    height: 350px;
+}
+
+.row1 {
+    flex: 0.5;
+    align-items: center;
+    padding: 30px;
+    margin-right: 10px;
+    border-radius: 10px;
+    border-style: solid;
+}
+
+.row2 {
+    flex: 1.5;
+    text-align: center;
+    padding: 50px;
+    background-color:rgb(0, 139, 0);
+    border-color: rgba(121, 121, 121, 1);
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 10px;
+    border-style: solid;
+}
+
+.txt{
+    color: #fff;
+}
+
+.parrafo-row2{
+    font-size: 25px;
+}
+
+.row3 {
+    flex: 1;
+    background-color: black;
+    padding: 15px;
+    margin-left: 15px;
+    border-radius: 10px;
+    border-style: solid;
+}
+
+.button-L{
+    margin-top: 50px;
+    margin-bottom: 15px;
+    margin-left: 25px;
+    margin-right: 25px;
+    background-color: #fff;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: rgba(121, 121, 121, 1);
+    padding: 20px;
+    width: 150px;
+}
+
+.button-M{
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 25px;
+    background-color: #fff;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: rgba(121, 121, 121, 1);
+    padding: 20px;
+    width: 180px;  
+}

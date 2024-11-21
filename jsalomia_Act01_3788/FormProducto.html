@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/estilosFP.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="formulario1">
+
+            <p class="p-1">Datos Básicos</p>
+
+            <form>
+                Nombre del Producto
+                <input type="text" name="Calle" size="20">
+                <p>Descripción</p>
+                <textarea name="texto" rows="4" cols="20"></textarea>
+                <br>
+                <p>Foto:</p>
+                <input type="file">
+                <br>
+                <input type="checkbox" name="" id="informacion">Añadir información confidencial
+            </form>
+        </div>
+
+        <div class="formulario2">
+            <p class="p-2">Datos Económicos</p>
+
+            <form>
+                Precio: <input type="number" min="0"> $
+                Impuestos:
+                <select name="menu">
+                    <option>4%</option>
+                    <option value="2">5%</option>
+                    <option value="3">6%</option>
+                </select>
+                <p>Promoción</p>
+                <input type="radio">Ninguno
+                <br>
+                <input type="radio">Transporte Gratuito
+                <br>
+                <input type="radio">Descuento 5%
+                
+            </form>
+        </div>
+
+        <button>Guardar Cambios</button>
+        <button>Borrar los datos introducidos</button>
+
+    </div>
+</body>
+
+</html>

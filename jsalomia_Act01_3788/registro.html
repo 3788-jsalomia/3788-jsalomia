@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/estilosF.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="formulario1">
+
+            <p class="p-1">DIRECCION DE ENVIO</p>
+
+            <form>
+                <div class="margen">
+                    <p>Calle principal</p>
+                    <input type="text" name="Calle" size="20">
+                </div>
+
+                <div class="margen">
+                    <p>Transversal</p>
+                    <input type="text" name="transversal" size="20">
+                    <br>
+                </div>
+
+                <div class="margen">
+                    <input type="checkbox" id="checkbox1">Entrega al propietario.
+                    <br>
+                    <input type="checkbox" id="checkbox2">Entrega a un tercero.
+                </div>
+
+
+
+                <div class="margen">
+                    Cantones:
+                    <select name="menu" id="menu">
+                        <option>Quito</option>
+                        <option value="">Guayaquil</option>
+                        <option value="">Cuenca</option>
+                    </select>
+                    <br>
+                </div>
+
+                <div class="margen">
+                    <button id="myButton" class="disabled" disabled>ENVIAR DATOS </button>
+                </div>
+
+
+
+
+
+            </form>
+        </div>
+
+        <div id="formulario2">
+            <p class="p-2">INFORMACIÓN CONFIDENCIAL</p>
+
+            <form>
+
+                <div class="margen">
+                    Codigo Postal:
+                    <input type="text" size="15">
+                </div>
+                <div class="margen">
+                    <p>Referencia de la Direccion</p>
+                    <textarea name="texto" rows="4" cols="20"></textarea>
+                    <br>
+                </div>
+                <div class="margen">
+                    <button>Guardar</button>
+                </div>
+
+
+
+
+
+            </form>
+
+        </div>
+    </div>
+
+
+
+    <script src="/js/scrip.js"></script>
+</body>
+
+</html>
